@@ -1,0 +1,989 @@
+---
+title: "Enhancing Workplace Mental Health: Evaluating Mental Health Support Programs (MHSPs)"
+author:  "Boping Song, Jiayao (Faye) Wei, Tianji Li, Yuntong Zhang"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment="", warning = FALSE, message = FALSE, tidy.opts=list(width.cutoff=55), tidy = TRUE)
+
+# Make sure to change the name of the file to something more descriptive for your project.
+```
+
+## Part 1:  Research Proposal
+
+### Memo to Decision Makers
+Dear Decision Makers,
+Nowadays, the mental well-being of employees at their workplaces has turned into a burning issue for enterprises, particularly in fields like IT, finance, and retail trade. This memo outlines a proposed research study that aims to evaluate the impact of workplace mental health support programs (MHSPs) on employee productivity, satisfaction, and retention. A condensed account and description of the project, including its background and purpose is given in the following sentences.
+
+Problem Statement:
+The core issue is the common workplace pressure and stress that have negative implications on employee performance, job satisfaction, as well as retention. Modern solutions for mental health problems are often not adequately evidence-based to show their effectiveness, leaving decision-makers notwithstanding on where to allocate more resources. Thereby, the current investigation is designed to consider this deficiency by analyzing the way mental health programs can help to ease the pressure at the workplace and enhance the organizational productivity.
+
+Study Objectives:
+Assess the impact of MHSPs on employee productivity, job satisfaction, and retention rates.
+Determine the effectiveness of specific components, such as counseling and stress management workshops.
+Explore the role of demographic factors (e.g., age, job role, tenure) in moderating the program's impact.
+
+Research Design:
+The study will recruit 300–500 employees from medium and large organizations based on the stratified random sampling approach, which will ensure that they have demographic representation. After that, a six-month MHSP intervention will be performed, including weekly counseling sessions, stress management workshops, and online support platforms. With this survey, employees will be assessed at three intervals (baseline, mid-point, and post-intervention) by means of an array of instruments that assess both quantitative (performance metrics such as KPIs and turnover rates) and qualitative (e.g., Job Satisfaction Index). Analytical techniques such as linear regression and ANOVA will be used to analyze the data, which in turn will reveal the necessary findings that can be used to effect positive changes.
+
+**Authors (Names and Percentages)**: Boping Song, 100%
+
+
+
+
+### Statement of the Problem
+This study will examine the impact of mental health support programs on productivity,employee turnover, and job satisfaction in medium and large companies, particularly in industries that have notable concerns about employee mental health, such as technology, retail, and finance. It will collaborate with organizations that commit to promote work environments that preserve the mental health of its employees and analyze how these programs influence results in performance metrics. Understanding the relationship between mental health programs and employee performance is essential to mitigating the effects of workplace stress. The study expects to provide empirical evidence that will enable organizations to optimize mental health resources.
+
+**Authors (Names and Percentages)**: Jiayao Wei, 100%
+
+### Literature Review
+To investigate the impact of mental health support programs on job performance and employee retention, four aspects are required to consider: employee performance, employee turnover, job satisfaction and loyalty.
+
+Many studies have shown that there is a close link between mental health and job performance: poor mental health such as stress, depression and anxiety, can dramatically impact cognitive functioning, decision-making and productivity. Employees who suffer from mental health issues in the workplace are more likely to exhibit absenteeism, presenteeism, and reduced work quality (Wang et al., 2020). Luckily, mental health support programs have the potential to improve this situation. It is found that psychological distress and well-being can be reduced and increased respectively by providing mental health interventions in the workplace, thereby leading to moderate improvement in job performance (Joyce et al., 2016). According to the Job Demands-Resources Model founded by Demerouti et al. in 2001, it blocks the negative effects of high job demands, improving engagement, and performance outcomes when mental health support is applied as a resource to employees. These resources decrease burnout and foster resilience, thereby enhancing performance (Demerouti et al., 2001).
+
+As for the effect of mental health on employee retention, it is suggested that individuals with high levels of emotional exhaustion (long-lasting stress, burnout etc.) are more likely to leave and seek employment elsewise (Halbesleben and Buckley, 2004). It is true that organizations with effective EAPs report lower voluntary turnover rates, as these programs help employees manage personal and work-related stress (Attridge, 2009). Providing mental health support not only enhances organizational commitment by creating a supportive environment, but also reduces costs on replacing employees by supporting employee well-being, which is a tangible financial benefit to mental health programs (Wright and Cropanzano, 1998).
+
+Based on Danon and Kramer (2018), employees who feel that the caring company not just cares about their work requirements, but also their mental state, are more prone to report being satisfied with their jobs and having a commitment to the organization. What follows from the Social Exchange Theory (Blau, 1964) is that the employees translate positive treatment from their employer (in this case, mental health care) into appropriate attitudes and behavior, such as increased loyalty or greater job satisfaction. The component of having a culture of the workplace that helps, where everybody talks and values about mental health, is fundamental. Milligan-Saville et al. (2017) also found that workplaces with a mental health-orientated culture not only have lower turnover rates but also have a greater work satisfaction.
+
+**Authors (Names and Percentages)**: Tianji Li, 100%
+
+
+
+
+### Research Questions, Hypotheses, and Effects
+1. What impact might the use of a mental health awareness program at work have on the output of employees, satisfaction within their work environment, and the retention rates of those employees?
+a. Null hypothesis (H0): There is no significant difference between participating in a mental health support program and the rise in work performance, satisfaction, and retention rates.
+b. Alternative hypothesis (H1): The engagement in the mental health support program yields a definite upward change in the levels of job performance, approval, and retention rate.
+
+2. Are specific components of a single mental health support program, such as personalized counseling, more effective at enhancing job satisfaction and reducing workplace burnout?
+a. Null hypothesis (H0): There are no significant differences in the effects of different components of the mental health support program (e.g., counseling, mindfulness training) on employees' job satisfaction and burnout levels.
+b. Alternative hypothesis (H1): Specific components of the mental health support program (e.g., personalized counseling) significantly improve job satisfaction and reduce burnout more effectively than other components.
+
+3. Does the mental health support program have the same level of impact on employee performance and retention rate across the factors like employee age, job role, and the duration of employment?
+a. Null hypothesis (H0): There is no difference in the effectiveness of the mental health support program in enhancing employee performance and simultaneously minimizing turnover as influenced by age, functional occupation, or duration of stay in the job.
+b. Alternative hypothesis (H1): Employee age, position in the company, and length of employment are the major factors that determine the extent to which the mental health support program can increase productivity and decrease turnover.
+
+The study hypothesized that a company's participation in a workplace mental health support program would be associated with a significant enhancement of its employees' performance, satisfaction, and retention. Moreover, the study assumed that different systems of an anti-burnout program (for example, individual counseling sessions, group workshops) may have their own approaches to burnout treatment, so some of them could be ideal in the burnout course. Ultimately, the researchers assumed that mental health support programs' efficiency can be affected by various factors like the age of executive employees, their job functions, or types of services provided by the company.
+
+Such research begets vital observations about the role of mental health assistance programs in employee performance and retention. It can benefit organizations and human resource departments to create efficient mental health strategies, which can ensure high employee productivity and lessen unwanted staff turnover. Therefore, these conclusions have a huge importance for organizations, for example, tech, finance, or health care companies, with a focus on how to improve the overall work climate.
+
+**Authors (Names and Percentages)**: Yuntong Zhang, 100%
+
+
+
+
+### Importance of the Study and Social Impact
+This research is of utmost importance by virtue of the fact that it aims at tackling the widespread troublesome issue of mental health at the workplace, which is a major factor in employee performance, satisfaction, and retention. This investigation will present employers with evidence regarding mental health assistance programs, and subsequently, they will formulate work environments that promote productivity and curtails turnover rates. The evidence generated will help organizational leaders make informed decisions about allocating resources to mental health initiatives, leading to tangible financial and operational benefits to employers, such as reduced absenteeism, improved employee morale, and reduced recruitment costs.
+
+The social impact of this research is not limited only to entities individually but rather extends beyond and touches on other organizations. While focusing on the effectiveness of psychological support for employees in various organizations, this study can trigger a society-based change by putting mental well-being on top of the agenda in the working environment. These resources, and others like them, must be offered to employees across all sectors, most notably the stressful ones like technology, finance, and retail, for a happier and healthier workforce. Organizations that utilize these approaches will be able to set quality standards, thus motivating other employers to follow suit, which will lead to the creation of a more humane and more effective business culture.
+
+Through this research, the aim is to lay the foundation for goals and initiatives that transform how mental health programs act as the bridge for connecting employee well-being to organizational success. Mental health and its impact on work can become an integral part that benefits individuals, organizations, and the society at large by the creation of workplaces with lower disparities in mental health and healthier, more inclusive workplaces.
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+
+
+### Research Plan
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+
+
+#### Population of Interest
+Since enterprises above a certain scale have the ability to regularly implement employee mental health support plans. Therefore, this research mainly examines employees of large and medium-sized enterprises with more than 50 employees.
+
+**Authors (Names and Percentages)**: Boping Song, 100%
+
+
+#### Sample Selection
+Stratified random sampling method was used to stratify the samples according to age and sex. Ensure that the sample covers employees of all ages and genders to make the sample representative. The sample size is currently estimated at 300-500 people. It requires 40% of employees under the age of 30, 40% of employees aged 30-40, and 20% of employees over the age of 40. The sample should be evenly divided between men and women, that is, 50% each. Specifically, first divide the sample size of 300-500 proportionally with 40%, 40%, and 20%. With gender equality, the final sample should compose of 60-100 male and 60-100 female employees under the age of 30; 60-100 male and 60-100 female employees aged 30-40; And 30-50 male and 50 female employees over the age of 40.
+
+**Authors (Names and Percentages)**: Boping Song, 100%
+
+
+#### Operational Procedures
+Participants will be recruited within the organization through internal advertisements, emails, and HR communications. Each participant will sign an NDA contract that addresses the purpose of the study, confidentiality measures, and their rights.
+Individuals experiencing mild to moderate stress levels and seeking to enhance workplace mental well-being are eligible to participate. However, those severe psychological challenges that require clinical intervention will be excluded. Participants who find divulging their mental health condition to research conductors can withdraw without repercussion. Participation is voluntary, and incentives such as gift cards will be offered.
+
+The study will implement a mental health support program focusing on Mindfulness and Stress-Management Training. The program will span 6 months. Certified mental health professionals will conduct 60-minute weekly sessions that involve exercises such as counseling, meditation, and progressive muscle relaxation. Participants will learn practical strategies for managing workplace stress and improving focus. The sessions will follow a structured progression, starting with fundamental practices and gradually introducing more advanced techniques so that all participants can engage effectively. Digital resources are also provided to our participants to promote self-help.
+
+Ethical considerations will guide the study to ensure confidentiality and data protection. Participants may withdraw at any time without consequence, thus preserving their autonomy throughout the study.
+
+**Authors (Names and Percentages)**: Yuntong Zhang, 100%
+
+
+#### Brief Schedule
+The project will run for 8 months, with separate phases for each stage. Research conductors will spend the first month on participant recruitment and session preparation. The next 6 months will center on implementing the mindfulness and stress management program and data collection. The last month will be dedicated to data analysis, interpretation, and report preparation.
+
+**Authors (Names and Percentages)**: Yuntong Zhang, 100%
+
+
+#### Data Collection
+The study will use a prospective design to gather data that does not yet exist by tracking participants' progress over a 6-month period. Data will be collected at three intervals: baseline pre-intervention), mid-point (3 months), and endpoint (6 months). 
+At each interval, participants will complete a Job Satisfaction Index survey to measure changes in their attitudes and satisfaction towards their jobs. This survey will record subjective feedback on their work experience. Meanwhile, the organization will assess job performance using key performance indicators (KPIs) such as completion rates and quality of output. These objective metrics will help track the impact of the mental health program on employees' productivity. Additionally, employee turnover rates will be calculated to determine if the program has a positive effect on employee retention.
+
+**Authors (Names and Percentages)**: Yuntong Zhang, 100%
+
+
+
+#### Data Security
+To ensure confidentiality, all data collected will be anonymized. Only authorized researchers who consent to comply with the data confidentiality policy will have access to it. Sensitive information will be managed through the organization's secure data system. Participants will provide informed consent and the use of the data will be clearly explained to them. Once the study is completed, identifiable information will be deleted to ensure long-term confidentiality.
+
+**Authors (Names and Percentages)**: Tianji Li, 100%
+
+
+#### Variables
+
+
+##### Outcomes (Dependent Variables)
+The study identifies three dependent variables to evaluate the impact of mental health support programs on the organizational outcomes:
+
+1. Job Performance: This is assessed statistically by comparing the performance measures (critical indicators of the organization's operations). Instances of KPIs are completion rates, the ratings of quality, and the efficiency of output. Data will be collected as it goes on, once a month, during the experiment period in order to explore the trends.
+
+2. Employee Satisfaction: Evaluated through such a validated survey tool as Job Satisfaction Index with answers scored from 1 to 5 (1 = completely unhappy, 5 = completely satisfied). Pre- and post-intervention surveys will be administered upon initiation and at the end of each month.
+
+3. Employee Turnover Rate: Scrutinized through the personnel's data system, with a concentration on voluntary separations during the research period. The turnover rate will be calculated as a ratio of the total workforce in each group.
+
+These variables generate a complete and extensive system of its possible effects on individual and collective based research and studies.
+
+**Authors (Names and Percentages)**: Tianji Li, 100%
+
+
+##### Treatments (Independent Variables)
+This independent variable will be the establishment of a mental health support program. The defined treatment group will run these faculties, which constitute the following:
+
+1. Counseling that is personal: Each participant will have a chance to hold a face-to-face session with a professional therapist (with mental health certification) biweekly.
+
+2. Stress Management Workshops: Interactive group workshops will be conducted once a week. These are programs focusing on such things as mindfulness techniques or cognitive restructuring.
+
+3. Digital Resources: There will be an online platform offering quick access to self-help resources, online seminars, as well as a 24-hour hotline support.
+
+The experiment's control group will not receive the above interventions. It is suggested that the therapies will be effective in improving work performance and retention by dealing with the stress at the workplace and building resilience.
+
+**Authors (Names and Percentages)**: Tianji Li, 100%
+
+
+
+##### Other Variables
+To account for potential confounding factors, the following variables will be recorded and controlled for during analysis:
+
+1. Age: Categorized as under 30 years, 30–40 years, and above 40 years to examine differences in response related to the interventions.
+
+2. Gender: Gender identification being male, female, or other, to ensure demographic inclusiveness.
+
+3. Job Role: Separation into departmental managerial, technical, or administrative roles that affect the combinations of levels of stress and satisfaction.
+
+4. Employment Tenure: Age of employees that influence the outcome being measured in years.
+
+5. Industry: Categorized into sectors like technology, retail, or finance that correspond to the potential reasons behind the program's effectiveness.
+
+These additional variables will be used as controls for mental health assistance programs in order to provide an accurate impact evaluation.
+
+**Authors (Names and Percentages)**: Jiayao Wei, 100%
+
+
+
+### Statistical Analysis Plan  
+The research aims to evaluate the impact of mental health support programs (MHSPs) on employee performance, satisfaction and retention rate in the workplace, meanwhile analyzing the effectiveness of single components and the influence of demographic variables.
+ 
+Before conducting analysis and simulation, it is needed to make data pre-processing, which includes data cleaning, data coding and data exploration.
+ 
+There will be three steps for data cleaning. Firstly, we will handle missing data with imputation methods for continuous variables and categorical variables, which contributes an entire data set for analysis and simulation. Secondly, we will remove or address outliers detected through visualizations (e.g., box plots) or statistical methods (e.g., Z-scores), decreasing errors in simulations. Thirdly, we will standardize continuous variables (e.g., performance scores) to facilitate interpretation.
+ 
+After data cleaning, our group will encode categorical variables (e.g., gender, job role) as dummy variables and create binary indicators for treatment/control groups and program component usage. Then we are going to make exploration on the data sets, such as listing descriptive statistics for all variables (e.g., mean, median, standard deviation), and plot related charts for visualization (e.g., histograms, bar charts, scatterplots) to examine data distributions and relationships.
+ 
+Further statistical analysis plans are listed below by research questions:
+ 
+For Research Question 1 (What impact might the use of a mental health support program at work have on employee output, satisfaction, and retention rates?). There are three dependent variables: job performance (discrete, from 0 to 10), job satisfaction (discrete, from 1 to 5), retention rate and one independent variable: MHSP participation (binary). In this research, 2-sample t test will be used on job performance data and job satisfaction data, and 2-sample test for proportions will be used on retention data. p-values values will be used to evaluate the statistical significance of the variables and the performance of the tests.
+ 
+For research question 2 (Are specific components of a single mental health support program, such as personalized counseling, more effective at enhancing job satisfaction and reducing workplace burnout?), our group will apply different analyses on component effectiveness analysis and component comparison analysis respectively. For component effectiveness analysis, 2-sample t test will be used to evaluate the distinct effects of each program component on continuous outcomes similar to research question 1, as well as p-value will be used for identifying the  statistical significance of simulated data.
+ 
+For research question 3: (Does the mental health support program have the same level of impact on employee performance and retention rate across factors like age, job role, and tenure?). For component comparison analysis, analysis of variance (ANOVA) will be applied to compare mean of factors across groups utilizing different components, thereby identifying whether differences between components are statistically significant. Meanwhile, F-value and p-value will be calculated to evaluate the capacity of the tests.
+ 
+In this research, all hypothesis tests will be conducted at a 5% significance level (p < 0.05), with adjustments for multiple comparisons (e.g., Bonferroni correction). And software tools such as R (For statistical modeling (e.g., lm, glm, anova), visualization and simulation) will be used in the research.
+
+**Authors (Names and Percentages)**: Jiayao Wei, 100%
+
+
+
+
+### Sample Size and Statistical Power
+The stratified random sampling method was used to stratify the samples according to age and gender. The current sample size in the designed plan is estimated at 300-500 people. This needs to be further verified by combining sample statistics and significance level in the subsequent simulation and calculation, that is, whether the minimum sample size standard is met. In addition, age and gender are also factors related to the sample and can affect the dependent variable. Therefore, these factors should be managed in the sample selection process. Ensure that the sample covers employees of all ages and genders to make the sample representative. It requires 40% of employees under 30 years old, 40% of employees between 30 and 40 years old, and 20% of employees over 40 years old. The sample should be equally divided between men and women, that is, 50% each.
+
+**Authors (Names and Percentages)**: Boping Song, 100%
+
+
+
+
+### Possible Recommendations
+Research Question 1:
+If the null hypothesis is not rejected, the company is suggested to improve MHSP used before to better face the challenge for job performance, satisfaction and retention rate. Additionally, the company should integrate alternative interventions such as leadership, workload management and flexible work policies alongside the MHSP. At last, further reaches are supposed to be conducted to identify barriers to improve effectiveness, such as inadequate participation or lack of awareness.
+If the null hypothesis is rejected, the company should continue scaling the MHSP, and highlight its measurable benefits on performance, satisfaction and retention. Meanwhile, further investments in promotional efforts are suggested to encourage higher participation rates. At last, the research’s success is recommended to more workplaces, and position it as a competitive advantage for talent acquisition and retention.
+ 
+Research Question 2:
+If the null hypothesis is not rejected, the company should focus on optimizing the delivery of all program components collectively rather than isolating efforts to specific aspects. Besides, it is advised to simplify the program structure to make MHSP more accessible and cost-effective while maintaining overall impact.
+If the null hypothesis is rejected, the company is recommended to prioritize and expand the most effective components (personalized counseling) to maximize impact on job satisfaction and burnout reduction. Additionally, less effective components are suggested to spare resources to more effective ones, thereby strengthening the high-impact areas. At last, tailing the program for specific employee groups matters, which leverages data on preferences and outcomes for customization.
+ 
+Research Question 3:
+If the null hypothesis is not rejected, the MHSP is recommended to apply uniformly across all demographics and roles, ensuring all employees have equal access. Meanwhile, monitoring ongoing data to detect potential disparities over time is also suggested, and re-evaluating if patterns emerge.
+If the null hypothesis is rejected, the company should customize program elements to better meet the needs of specific demographics or roles, such as adding additional stress management workshops for newer employees or counseling for senior staff. It is also suggested to target high-impact subgroups with enhanced resources to optimize the program’s overall efficiency. At last, although high-impact subgroups matter, ensuring no group is left behind is noticeable, which can be achieved by using findings to advocate for inclusivity and equity to address areas where the program may have lower impacts.
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+
+
+### Limitations and Uncertainties
+Firstly, for Research Question 1 to measure the MHSP’s impact on multiple outcomes (job performance, satisfaction and retention), these outcomes are influenced by various external factors such as organizational culture, leadership styles, economic conditions, and etc., which may confound the results and it may not be possible to isolate the MHSP’s efforts entirely from other simultaneous organizational or environmental influences.
+ 
+Secondly, the statistical power to detect differences in similar subgroups may be limited when researching for the third research question, particularly if the sample size is unevenly distributed across categories. To overcome this, the research should ensure a sufficiently large and diverse sample size to support subgroup analysis and interpret demographic-specific findings carefully, particularly when sample sizes are small.
+ 
+Thirdly, some subjective measures such as job satisfaction and burnout are often gathered through self-reported surveys. These are prone to bias like social desirability bias or respondents overstating the program’s benefits to align with organizational expectations, which leads to results regarding satisfaction and burnout may not fully reflect objective realities. However, adding supplemental self-reported data with objective metrics to triangulate findings helps reduce misleading caused by bias.
+ 
+Fourthly, the research may noy fully address the long-term sustainability of MHSP benefits as it captures short term effects more and work dynamics evolve over time. It is suggested to consider follow-up studies and incorporate longitudinal measures, as well as emphasizing the temporal limitations of initial outcomes in interpreting the results.
+ 
+When interpreting the results, we should take care in three ways below:
+1. Correlations vs. Causation: Even with robust statistical models, results may indicate associations rather than direct causal effects. It is suggested to interpret results with caution, highlighting potential confounders and contextual influences.
+2. Generalizability: The effectiveness of MHSPs might vary across industries or cultural contexts. Results from one organizational setting may not apply universally, particularly if the sample lacks diversity.
+3. Component Interaction: Individual components’ effectiveness might not be fully separable due to overlapping or synergistic effects. So cautiousness is needed when attributing outcomes to specific program elements.
+
+**Authors (Names and Percentages)**: Jiayao Wei, 100%
+
+
+
+## Part 2:  Simulated Studies
+To enhance the reliability of the research, we performed simulations and related analyses. These simulations allowed us to explore valuable solutions under different scenarios and gain a deeper understanding of the behavior of statistical methods.
+
+The study addresses two research questions. For each question, we considered two scenarios: one where the proposed treatment has no effect on variables in the research questions and another where the treatment produces an effect. In the no-effect scenario, the means of the control and treatment groups were set very close to each other. In contrast, for the scenario where the treatment has an effect, the means of the two groups were set to have significant differences.
+
+We began by conducting a single simulation for each test to examine the effect related to the research question. Following this, we repeated each simulation 1,000 times to evaluate the results comprehensively. The simulations for each research question are as follows:
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+### Research Question 1:
+
+#### Scenario 1:  No Effect
+The mean we set for our control group has been obtained based on the usual condition for an IT company’s survey of job performance rating, satisfaction rating, retention rate. The distribution of job performance rating and job satisfaction rating are set as truncated normal distribution, and that of retention rate is considered as binomial distribution. The mean job performance rating is 5, we want to test if the MHSP has an effect on the job performance, so we set the mean job performance rating in the treatment group as 7. The standard deviation of job performance rating we set for our simulation is 1.5. Similarly, the mean job satisfaction rating and retention rate are 3 and 0.6 (control group), and 4, 0.8 for treatment group. The standard deviation of job satisfaction is 1.
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+
+##### Simulation
+
+```{r q1_scenario1_simulation}
+library(ggplot2) 
+library(tidyverse) 
+library(dplyr) 
+library(pwr)
+
+# Simulate once
+set.seed(123)
+library(data.table)
+library(DT)
+library(truncnorm)
+
+n = 200 
+
+df = data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+
+df
+
+df[Group == "Control", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5,sd=1.5))]
+df[Group == "Control", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3,sd=1))]
+df[Group == "Control", retention := round(x = rbinom(n = .N, size = 1, prob = 0.6), digits = 1)]
+
+df[Group == "Treatment", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5.1,sd=1.5))]
+df[Group == "Treatment", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3.1,sd=1))]
+df[Group == "Treatment", retention := round(x = rbinom(n = .N, size = 1, prob = 0.65), digits = 1)]
+
+df
+
+# convert df to a datatable
+datatable(data = df)
+
+summarise(group_by(df, Group), performance_score_perc = mean(performance_score), satisfaction_score_perc = mean(satisfaction_score), retention_perc = mean(retention)) 
+
+summarise(group_by(df, Group), num_performance_score = sum(performance_score), num_satisfaction_score = sum(satisfaction_score), num_retention = sum(retention))
+
+set.seed(123)
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    
+    control_performance_score = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               performance_score = sum(performance_score))$performance_score
+    control_satisfaction_score = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               satisfaction_score = sum(satisfaction_score))$satisfaction_score
+    control_retention = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               retention = sum(retention))$retention
+    
+    treatment_performance_score = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 performance_score = sum(performance_score))$performance_score
+    treatment_satisfaction_score = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 satisfaction_score = sum(satisfaction_score))$satisfaction_score
+    treatment_retention = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 retention = sum(retention))$retention
+    
+    the.test1 <- t.test(x = the.dat[Group == "Treatment",performance_score], 
+                        y = the.dat[Group == "Control", performance_score], alternative = "two.sided")
+    
+    the.test2 <- t.test(x = the.dat[Group == "Treatment",satisfaction_score], 
+                        y = the.dat[Group == "Control", satisfaction_score], alternative = "two.sided")
+    
+    the.test3 <- prop.test(c(control_retention, treatment_retention), c(nrow(the.dat)/2, nrow(the.dat)/2), 
+                          alternative = "two.sided")
+    
+    # Extract effect size, upper bound, and p-value from the test 
+    the.effect_performance <- the.test1$estimate[1] - the.test1$estimate[2]
+    upper.bound_perfoormance <- the.test1$conf.int[2]
+    p_performance <- the.test1$p.value
+    
+    the.effect_satisfaction <- the.test2$estimate[1] - the.test2$estimate[2]
+    upper.bound_satisfaction <- the.test2$conf.int[2]
+    p_satisfaction <- the.test2$p.value
+    
+    the.effect_retention <- the.test3$estimate[2] - the.test3$estimate[1]
+    upper.bound_retention <- the.test3$conf.int[2]
+    p_retention <- the.test3$p.value
+    
+    # Organize the results
+    result <- data.table(effect_performance = the.effect_performance, 
+                         upper_ci_performance = upper.bound_perfoormance,
+                         p_performance = p_performance,
+                         effect_satisfaction = the.effect_satisfaction, 
+                         upper_ci_satisfaction = upper.bound_satisfaction,
+                         p_satisfaction = p_satisfaction,
+                         effect_retention = the.effect_retention, 
+                         upper_ci_retention = upper.bound_retention,
+                         p_retention = p_retention)
+    
+    return(result)
+}
+
+# Simulate 1 experiment: 
+analyze.experiment(the.dat = df)
+
+# Simulate for B experiments: 
+B = 1000 # number of experiments 
+n = 200 
+
+Experiment = 1:B
+
+# Generate the people for treatment and control groups
+Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n))
+
+# Simulate data for B experiments
+sim.dat = as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+
+sim.dat[Group == "Control", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5,sd=1.5))]
+sim.dat[Group == "Control", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3,sd=1))]
+sim.dat[Group == "Control", retention := round(x = rbinom(n = .N, size = 1, prob = 0.6), digits = 1)]
+
+sim.dat[Group == "Treatment", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5.1,sd=1.5))]
+sim.dat[Group == "Treatment", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3.1,sd=1))]
+sim.dat[Group == "Treatment", retention := round(x = rbinom(n = .N, size = 1, prob = 0.65), digits = 1)]
+
+write.csv(sim.dat, 'results.csv') # save results to csv file
+
+exp.results = sim.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+
+exp.results # data for all experiments
+
+# Organize results into a table 
+DT::datatable(data = round(x = exp.results[1:B, ], digits = 15), rownames = F)
+
+```
+
+##### Analysis
+
+```{r q1_scenario1_analysis}
+alpha = 0.05
+
+# What % of experiments have p-value < 5% (significant results)?
+exp.results[, mean(p_performance < alpha)]
+exp.results[, mean(p_satisfaction < alpha)]
+exp.results[, mean(p_retention < alpha)]
+
+# What's the distribution of the effect size across all the experiments?
+exp.results[, summary(effect_performance)]
+exp.results[, summary(effect_satisfaction)]
+exp.results[, summary(effect_retention)]
+
+# 95% confidence interval of the estimated effect size
+exp.results[, round(x = quantile(x = effect_performance, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+exp.results[, round(x = quantile(x = effect_satisfaction, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+exp.results[, round(x = quantile(x = effect_retention, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+```
+We could see that the vast minority (0.107) of simulated job performance data has the p-value that is smaller than 0.05, and that of job satisfaction and retention rate are in the same case (0.12 and 0.141), which implies that the treatment had no impact on the outcomes. So, we decided to reset the mean values (3 for job performance rating and 4 for job satisfaction rating) and the possibility of retention (0.8) for the variables in the treatment group to improve the likelihood of detecting the effect. Then we conduct the simulation again.
+
+
+#### Scenario 2:  An Expected Effect
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+##### Simulation
+
+```{r q1_scenario2_simulation}
+library(ggplot2) 
+library(tidyverse) 
+library(dplyr) 
+library(pwr)
+
+#Simulate once
+set.seed(123)
+library(data.table)
+library(DT)
+library(truncnorm)
+
+n = 200 
+
+df = data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+
+df
+
+df[Group == "Control", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5,sd=1.5))]
+df[Group == "Control", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3,sd=1))]
+df[Group == "Control", retention := round(x = rbinom(n = .N, size = 1, prob = 0.6), digits = 1)]
+
+df[Group == "Treatment", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=7,sd=1.5))]
+df[Group == "Treatment", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=4,sd=1))]
+df[Group == "Treatment", retention := round(x = rbinom(n = .N, size = 1, prob = 0.8), digits = 1)]
+
+df
+
+# convert df to a datatable
+datatable(data = df)
+
+summarise(group_by(df, Group), performance_score_perc = mean(performance_score), satisfaction_score_perc = mean(satisfaction_score), retention_perc = mean(retention)) 
+
+summarise(group_by(df, Group), num_performance_score = sum(performance_score), num_satisfaction_score = sum(satisfaction_score), num_retention = sum(retention))
+
+set.seed(123)
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    
+    control_performance_score = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               performance_score = sum(performance_score))$performance_score
+    control_satisfaction_score = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               satisfaction_score = sum(satisfaction_score))$satisfaction_score
+    control_retention = summarise(group_by(filter(the.dat, Group == 'Control'), Group), 
+                               retention = sum(retention))$retention
+    
+    treatment_performance_score = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 performance_score = sum(performance_score))$performance_score
+    treatment_satisfaction_score = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 satisfaction_score = sum(satisfaction_score))$satisfaction_score
+    treatment_retention = summarise(group_by(filter(the.dat, Group == 'Treatment'), Group), 
+                                 retention = sum(retention))$retention
+
+    the.test1 <- t.test(x = the.dat[Group == "Treatment",performance_score], 
+                        y = the.dat[Group == "Control", performance_score], alternative = "two.sided")
+    
+    the.test2 <- t.test(x = the.dat[Group == "Treatment",satisfaction_score], 
+                        y = the.dat[Group == "Control", satisfaction_score], alternative = "two.sided")
+    
+    the.test3 <- prop.test(c(control_retention, treatment_retention), c(nrow(the.dat)/2, nrow(the.dat)/2), 
+                          alternative = "two.sided")
+    
+    # Extract effect size, upper bound, and p-value from the test 
+    the.effect_performance <- the.test1$estimate[1] - the.test1$estimate[2]
+    upper.bound_perfoormance <- the.test1$conf.int[2]
+    p_performance <- the.test1$p.value
+    
+    the.effect_satisfaction <- the.test2$estimate[1] - the.test2$estimate[2]
+    upper.bound_satisfaction <- the.test2$conf.int[2]
+    p_satisfaction <- the.test2$p.value
+    
+    the.effect_retention <- the.test3$estimate[2] - the.test3$estimate[1]
+    upper.bound_retention <- the.test3$conf.int[2]
+    p_retention <- the.test3$p.value
+    
+    # Organize the results
+    result <- data.table(effect_performance = the.effect_performance, 
+                         upper_ci_performance = upper.bound_perfoormance,
+                         p_performance = p_performance,
+                         effect_satisfaction = the.effect_satisfaction, 
+                         upper_ci_satisfaction = upper.bound_satisfaction,
+                         p_satisfaction = p_satisfaction,
+                         effect_retention = the.effect_retention, 
+                         upper_ci_retention = upper.bound_retention,
+                         p_retention = p_retention)
+    
+    return(result)
+}
+
+# Simulate 1 experiment: 
+analyze.experiment(the.dat = df)
+
+# Simulate for B experiments: 
+B = 1000 
+n = 200 
+
+Experiment = 1:B
+
+Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n))
+
+sim.dat = as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+
+sim.dat[Group == "Control", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=5,sd=1.5))]
+sim.dat[Group == "Control", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=3,sd=1))]
+sim.dat[Group == "Control", retention := round(x = rbinom(n = .N, size = 1, prob = 0.6), digits = 1)]
+
+sim.dat[Group == "Treatment", performance_score := round(x = rtruncnorm(n = .N ,a=0, b=10, mean=7,sd=1.5))]
+sim.dat[Group == "Treatment", satisfaction_score := round(x = rtruncnorm(n = .N ,a=1, b=5, mean=4,sd=1))]
+sim.dat[Group == "Treatment", retention := round(x = rbinom(n = .N, size = 1, prob = 0.8), digits = 1)]
+
+write.csv(sim.dat, 'results.csv') # save results to csv file
+
+exp.results = sim.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+
+exp.results # data for all experiments
+
+# Organize results into a table 
+DT::datatable(data = round(x = exp.results[1:B, ], digits = 15), rownames = F)
+```
+
+##### Analysis
+
+```{r q1_scenario2_analysis}
+alpha = 0.05
+
+# What % of experiments have p-value < 5% (significant results)?
+exp.results[, mean(p_performance < alpha)]
+exp.results[, mean(p_satisfaction < alpha)]
+exp.results[, mean(p_retention < alpha)]
+
+# What's the distribution of the effect size across all the experiments?
+exp.results[, summary(effect_performance)]
+exp.results[, summary(effect_satisfaction)]
+exp.results[, summary(effect_retention)]
+
+# 95% confidence interval of the estimated effect size
+exp.results[, round(x = quantile(x = effect_performance, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+exp.results[, round(x = quantile(x = effect_satisfaction, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+exp.results[, round(x = quantile(x = effect_retention, probs = c(alpha/2, 1 - alpha/2)), digits = 2)]
+```
+Job performance and job satisfaction metrics are almost always statistically significant, reflecting strong effects. Retention is slightly less significant, with 98.8% of experiments showing p<0.05, but it still has strong effects. Job performance shows the largest and most consistent positive effect, and job satisfaction shows a moderate, consistently positive effect. Retention is positive impacted but with a small effect size. The confidence intervals for job performance and job satisfaction do not overlap zero, confirming the positive effects and retention’s confidence interval is also above zero, confirming a small but consistent positive effect. We could use this simulation to test the collected data and look for the answers for the research question.
+
+
+### Research Question 2:
+For scenario 1 and 2, the mean we set for each group has been obtained based on our observation of the average job satisfaction from literature review. The standard deviation we set for our simulation is obtained through some trail sample data with satisfaction level range from 1 to 5.
+
+#### Scenario 1:  No Effect
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+
+##### Simulation & Analysis
+
+```{r q2_scenario1_simulation}
+# First trial simulation: sample size:200/group
+n <- 400
+library(data.table)
+library(DT)
+
+set.seed(seed = 1234)
+scenario1 <- data.table(Group = sample(x = c("Counseling that is personal","Stress Management Workshops"), size = n, replace = T, prob = c(1, 1)))
+scenario1[Group == "Counseling that is personal", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.4, sd = 0.6), digits = 1)]
+scenario1[Group == "Stress Management Workshops", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.5, sd = 0.7), digits = 1)]
+datatable(data = scenario1)
+# T-test result
+trial = t.test(x = scenario1[Group == "Counseling that is personal", meanSatisfaction],y = scenario1[Group == "Stress Management Workshops", meanSatisfaction], alternative = "two.sided")
+# Setting function
+analyze.experiment <- function(the.dat) {
+  require(data.table)
+  setDT(the.dat)
+  
+  the.test <- t.test(x = the.dat[Group == "Counseling that is personal",meanSatisfaction], y = the.dat[Group == "Stress Management Workshops", meanSatisfaction],alternative = "two.sided")
+  
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  upper.bound <- the.test$conf.int[2]
+  p <- the.test$p.value
+  
+  result <- data.table(effect = the.effect, upper_ci = upper.bound,p = p)
+  
+  return(result)
+}
+# First trial result
+analyze.experiment(the.dat = scenario1)
+
+# Repeat 1000 time
+B <- 1000
+n <- 400
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- rep.int(x = 1:B, times = n)
+Group = sample(x = c("Counseling that is personal", "Stress Management Workshops"), size = n *B, replace = T, prob = c(1, 1))
+sim.dat <- data.table(Experiment, Group)
+setorderv(x = sim.dat, cols = c("Experiment", "Group"),order = c(1, 1))
+sim.dat[Group == "Counseling that is personal", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.4, sd = 0.6), digits = 1)]
+sim.dat[Group == "Stress Management Workshops", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.5, sd = 0.7), digits = 1)]
+dim(sim.dat)
+# Result
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD),
+                       keyby = "Experiment"]
+# The power of this simulated experiment to detect the
+# effect of a 5 point mean reduction in average
+# poverty rate
+exp.results[, mean(p < 0.05)]
+# Summarize the range of observed effects
+exp.results[, summary(effect)]
+# Summarize the range of the upper bound of the 95%
+# confidence interval
+exp.results[, summary(upper_ci)]
+#Analysis
+library(pwr)
+pwr.t2n.test(n1 = 200, d = 0.5, sig.level = 0.05, power = 0.9,alternative = "two.sided")
+DT::datatable(data = round(x = exp.results[1:100, ], digits = 3),rownames = F)
+pvalue = mean(exp.results$p)
+q1_s1 <- data.table(Research_Question = "Question 2", Scenario = "No Effect",
+                    Mean_Effect_in_Simulated_Data = mean(exp.results$effect),
+                    Upper_Confidence_Interval_of_Mean_Effect = mean(exp.results$upper_ci),
+                    Percentage_of_False_Positives = exp.results[, mean(p <0.05)], Percentage_of_True_Negative = 1 - exp.results[,mean(p < 0.05)], Percentage_of_False_Negative = "",
+                    Percentage_of_True_Positives = "")
+q1_s1
+
+
+# 95% confidence interval of the estimated effect size
+alpha <- 0.05
+ci_effect <- exp.results[, round(quantile(effect, probs = c(alpha / 2, 1 - alpha / 2)), digits = 2)]
+print(ci_effect)
+```
+The mean effect is -0.096, upper limit of 95% confidence interval of mean effect is 0.031, the percentage of false positives is 31.4%, and the percentage of true negatives is 68.6%. We could see that the p-value is 0.90. It was larger than the significance level, which implied the different components had no impact on the population outcomes.
+
+
+#### Scenario 2:  An Expected Effect
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+##### Simulation & Analysis
+
+```{r q2_scenario2_simulation}
+# First trial simulation: sample size:200/group
+n <- 400
+library(data.table)
+library(DT)
+set.seed(seed = 1234)
+scenario2 <- data.table(Group = sample(x = c("Counseling that is personal","Stress Management Workshops"), size = n, replace = T, prob = c(1, 1)))
+scenario2[Group == "Counseling that is personal", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.4, sd = 0.6), digits = 1)]
+scenario2[Group == "Stress Management Workshops", meanSatisfaction := round(x = rnorm(n = .N,mean = 2.3, sd = 0.3), digits = 1)]
+datatable(data = scenario2)
+# T-test result
+trial = t.test(x = scenario2[Group == "Counseling that is personal", meanSatisfaction],y = scenario2[Group == "Stress Management Workshops", meanSatisfaction], alternative = "two.sided")
+# Setting function
+analyze.experiment <- function(the.dat) {
+  require(data.table)
+  setDT(the.dat)
+  
+  the.test <- t.test(x = the.dat[Group == "Counseling that is personal",meanSatisfaction], y = the.dat[Group == "Stress Management Workshops", meanSatisfaction],alternative = "two.sided")
+  
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  upper.bound <- the.test$conf.int[2]
+  p <- the.test$p.value
+  
+  result <- data.table(effect = the.effect, upper_ci = upper.bound,p = p)
+  
+  return(result)
+}
+# First trial result
+analyze.experiment(the.dat = scenario2)
+# Repeat 1000 time
+B <- 1000
+n <- 400
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- rep.int(x = 1:B, times = n)
+Group = sample(x = c("Counseling that is personal", "Stress Management Workshops"), size = n *B, replace = T, prob = c(1, 1))
+sim.dat <- data.table(Experiment, Group)
+setorderv(x = sim.dat, cols = c("Experiment", "Group"),order = c(1, 1))
+sim.dat[Group == "Counseling that is personal", meanSatisfaction := round(x = rnorm(n = .N,mean = 3.4, sd = 0.6), digits = 1)]
+sim.dat[Group == "Stress Management Workshops", meanSatisfaction := round(x = rnorm(n = .N,mean = 2.3, sd = 0.4), digits = 1)]
+dim(sim.dat)
+# Result
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD),
+                       keyby = "Experiment"]
+# The power of this simulated experiment to detect the
+# effect of a 5 point mean reduction in average
+# poverty rate
+exp.results[, mean(p < 0.05)]
+# Summarize the range of observed effects
+exp.results[, summary(effect)]
+# Summarize the range of the upper bound of the 95%
+# confidence interval
+exp.results[, summary(upper_ci)]
+#Analysis
+library(pwr)
+pwr.t2n.test(n1 = 200, d = 0.5, sig.level = 0.05, power = 0.9,alternative = "two.sided")
+pvalue = mean(exp.results$p)
+q1_s2 <- data.table(Research_Question = "Question 2", Scenario = "Effect",
+                    Mean_Effect_in_Simulated_Data = mean(exp.results$effect),
+                    Upper_Confidence_Interval_of_Mean_Effect = mean(exp.results$upper_ci),
+                    Percentage_of_False_Positives = exp.results[, mean(p <0.05)], Percentage_of_True_Negative = 1 - exp.results[,mean(p < 0.05)], Percentage_of_False_Negative = "",
+                    Percentage_of_True_Positives = "")
+q1_s2
+
+# 95% confidence interval of the estimated effect size
+alpha <- 0.05
+ci_effect <- exp.results[, round(quantile(effect, probs = c(alpha / 2, 1 - alpha / 2)), digits = 2)]
+print(ci_effect)
+```
+The mean effect is 1.103, upper limit of 95% confidence interval of mean effect is 1.203, the percentage of false negatives is 100.0%, and the percentage of true positives is 0.0%. The p-value is 3.12508e-71, It is significantly smaller than the significance level.
+
+With all the rest of the parameters remaining the same, the different components would be effective when the effect increases. The result of the simulation test shows that there are no problems in the design of the test. We could use this simulation to test the collected data and look for the answers for the research question.
+
+### Research Question 3:
+
+#### Scenario 1:  No Effect
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+##### Simulation
+
+```{r q3_scenario1_simulation}
+# Load required libraries
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+
+# Parameters for simulation
+set.seed(123) 
+n_groups <- 3  
+n_per_group <- 100  
+n_simulations <- 1000  
+effect_size <- 0.5  
+
+# Function to simulate data
+simulate_data <- function(effect = FALSE) {
+  data <- data.frame(
+    Group = rep(1:n_groups, each = n_per_group),
+    Outcome = rep(0, n_groups * n_per_group)
+  )
+  
+  # Generate outcomes under different scenarios
+  if (effect) {
+    # Add group-specific effects for Scenario 2
+    group_effects <- c(0, effect_size, effect_size * 1.5) # Customize effects
+    data$Outcome <- rnorm(n_groups * n_per_group, 
+                          mean = rep(group_effects, each = n_per_group), 
+                          sd = 1)
+  } else {
+    # Scenario 1: No effect (all groups have same mean)
+    data$Outcome <- rnorm(n_groups * n_per_group, mean = 0, sd = 1)
+  }
+  return(data)
+}
+
+# Function to compute the effect size and confidence intervals
+compute_statistics <- function(p_values, effect, data) {
+  # Mean Effect Calculation
+  mean_effect <- mean(data$Outcome)
+  
+  # Confidence Interval Calculation
+  ci <- t.test(data$Outcome)$conf.int
+  
+  # Calculate False Positives and True Negatives
+  false_positives <- mean(p_values < 0.05 & !effect)  # False positive when there is no effect (Scenario 1)
+  true_negatives <- mean(p_values >= 0.05 & !effect)  # True negative when no effect and p > 0.05
+  
+  # Calculate True Positives and False Negatives for Scenario 2
+  true_positives <- mean(p_values < 0.05 & effect)  # True positives when there is an effect (Scenario 2)
+  false_negatives <- mean(p_values >= 0.05 & effect)  # False negatives when there is an effect (Scenario 2)
+  
+  return(list(
+    mean_effect = mean_effect,
+    ci_lower = ci[1],
+    ci_upper = ci[2],
+    false_positive_rate = false_positives * 100,
+    true_negative_rate = true_negatives * 100,
+    true_positive_rate = true_positives * 100,
+    false_negative_rate = false_negatives * 100
+  ))
+}
+
+# Simulate and analyze 1000 studies
+simulate_studies <- function(effect = FALSE) {
+  p_values <- numeric(n_simulations)
+  
+  for (i in 1:n_simulations) {
+    data <- simulate_data(effect)
+    model <- aov(Outcome ~ as.factor(Group), data = data)
+    p_values[i] <- summary(model)[[1]]$`Pr(>F)`[1]  # Extract p-value correctly
+  }
+  
+  # Compute statistics (Mean Effect, Confidence Interval, False Positives, True Negatives)
+  stats <- compute_statistics(p_values, effect, data)
+  
+  return(stats)
+}
+
+# Run simulations for Scenario 1 (No Effect)
+results_scenario1 <- simulate_studies(effect = FALSE)
+```
+
+#### Scenario 2:  An Expected Effect
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
+##### Simulation
+
+```{r q3_scenario2_simulation}
+# Load required libraries
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+
+# Parameters for simulation
+set.seed(123) 
+n_groups <- 3  
+n_per_group <- 100  
+n_simulations <- 1000  
+effect_size <- 0.5  
+
+# Function to simulate data
+simulate_data <- function(effect = FALSE) {
+  data <- data.frame(
+    Group = rep(1:n_groups, each = n_per_group),
+    Outcome = rep(0, n_groups * n_per_group)
+  )
+  
+  # Generate outcomes under different scenarios
+  if (effect) {
+    # Add group-specific effects for Scenario 2
+    group_effects <- c(0, effect_size, effect_size * 1.5) # Customize effects
+    data$Outcome <- rnorm(n_groups * n_per_group, 
+                          mean = rep(group_effects, each = n_per_group), 
+                          sd = 1)
+  } else {
+    # Scenario 1: No effect (all groups have same mean)
+    data$Outcome <- rnorm(n_groups * n_per_group, mean = 0, sd = 1)
+  }
+  return(data)
+}
+
+# Function to compute the effect size and confidence intervals
+compute_statistics <- function(p_values, effect, data) {
+  # Mean Effect Calculation
+  mean_effect <- mean(data$Outcome)
+  
+  # Confidence Interval Calculation
+  ci <- t.test(data$Outcome)$conf.int
+  
+  # Calculate False Positives and True Negatives
+  false_positives <- mean(p_values < 0.05 & !effect)  # False positive when there is no effect (Scenario 1)
+  true_negatives <- mean(p_values >= 0.05 & !effect)  # True negative when no effect and p > 0.05
+  
+  # Calculate True Positives and False Negatives for Scenario 2
+  true_positives <- mean(p_values < 0.05 & effect)  # True positives when there is an effect (Scenario 2)
+  false_negatives <- mean(p_values >= 0.05 & effect)  # False negatives when there is an effect (Scenario 2)
+  
+  return(list(
+    mean_effect = mean_effect,
+    ci_lower = ci[1],
+    ci_upper = ci[2],
+    false_positive_rate = false_positives * 100,
+    true_negative_rate = true_negatives * 100,
+    true_positive_rate = true_positives * 100,
+    false_negative_rate = false_negatives * 100
+  ))
+}
+
+# Simulate and analyze 1000 studies
+simulate_studies <- function(effect = FALSE) {
+  p_values <- numeric(n_simulations)
+  
+  for (i in 1:n_simulations) {
+    data <- simulate_data(effect)
+    model <- aov(Outcome ~ as.factor(Group), data = data)
+    p_values[i] <- summary(model)[[1]]$`Pr(>F)`[1]  # Extract p-value correctly
+  }
+  
+  # Compute statistics (Mean Effect, Confidence Interval, False Positives, True Negatives)
+  stats <- compute_statistics(p_values, effect, data)
+  
+  return(stats)
+}
+
+# Run simulations for Scenario 2 (Expected Effect)
+results_scenario2 <- simulate_studies(effect = TRUE)
+```
+
+##### Analysis for Scenarios 1 & 2
+
+```{r q3_scenario2_analysis}
+# Display results
+results <- data.frame(
+  Scenario = c("No Effect", "Expected Effect"),
+  Mean_Effect = c(results_scenario1$mean_effect, results_scenario2$mean_effect),
+  CI_Lower = c(results_scenario1$ci_lower, results_scenario2$ci_lower),
+  CI_Upper = c(results_scenario1$ci_upper, results_scenario2$ci_upper),
+  False_Positive_Rate = c(results_scenario1$false_positive_rate, results_scenario2$false_positive_rate),
+  True_Negative_Rate = c(results_scenario1$true_negative_rate, results_scenario2$true_negative_rate),
+  True_Positive_Rate = c(results_scenario1$true_positive_rate, results_scenario2$true_positive_rate),
+  False_Negative_Rate = c(results_scenario1$false_negative_rate, results_scenario2$false_negative_rate)
+)
+
+print("Simulation Results:")
+print(results)
+
+# Plotting example outcomes for one simulation
+data_no_effect <- simulate_data(effect = FALSE)
+data_effect <- simulate_data(effect = TRUE)
+
+# Plot both scenarios side by side
+p1 <- ggplot(data_no_effect, aes(x = as.factor(Group), y = Outcome)) +
+  geom_boxplot() +
+  ggtitle("Scenario 1: No Effect") +
+  xlab("Group") +
+  ylab("Outcome")
+
+p2 <- ggplot(data_effect, aes(x = as.factor(Group), y = Outcome)) +
+  geom_boxplot() +
+  ggtitle("Scenario 2: Expected Effect") +
+  xlab("Group") +
+  ylab("Outcome")
+
+# Arrange the plots side by side
+grid.arrange(p1, p2, ncol = 2)
+```
+
+Scenario 1: No Effect
+
+The null hypothesis (H0) states that there is no difference in the effectiveness of the mental health support program in increasing employee performance and retention with respect to age, position and tenure. The average effect size is estimated to be -0.0007 with a confidence interval of -0.1125 to 0.1111 which indicates that there is no significant difference in the effect. The false positive rate was reported to be 4. 5% while the true negative rate was 95. 5%. Therefore, the MHSP has no significant impact on performance or retention as measured by the indices in this regard.
+
+Scenario 2: Expected Effect
+
+Under the alternative hypothesis (H1), the MHSP was evaluated for its impact when differences in employee demographics and roles were expected. The mean effect size was 0.4331 with a CI of 0.3125 to 0.5537 and was statistically significant. The positive predictive value was 100%, and there were no false negatives. This supports the proposition that MHSP effectiveness is not uniform and is influenced by variables such as age, job description, and tenure.
+
+Analysis From the Result
+
+The outcomes are in concordance with the alternative hypothesis. In the expected-effect situation, both job performance and retention were enhanced, as indicated by the positive mean effect size and the confidence interval that is also greater than zero. On the other hand, the no-effect situation shows no appreciable variations. The current findings are in line with the argument that to increase the effectiveness of MHSP, the components of the program need to be designed in a way that they can be applicable to individuals with different demographic and role characteristics and at the same time ensure that all employees are included.
+
+
+![Results of Three Research Questions](/Users/litianji/Desktop/Simulation/simulation_result.png)
+Might be different from results above due to different computer operating systems.
+
+
+
+## References
+Wang, J., et al. (2020). Mental health and work performance: How mental health support improves job efficiency. Journal of Occupational Health Psychology.
+
+Joyce, S., et al. (2016). Workplace interventions for common mental disorders: A systematic meta-review. Psychological Medicine, 46(4), 683-697.
+
+Demerouti, E., Bakker, A. B., Nachreiner, F., & Schaufeli, W. B. (2001). The job demands-resources model of burnout. Journal of Applied Psychology, 86(3), 499-512.
+
+Halbesleben, J. R. B., & Buckley, M. R. (2004). Burnout in organizational life. Journal of Management, 30(6), 859-879.
+Attridge, M. (2009). Employee assistance programs: A research-based primer. EAP Digest, 29(3), 22-27.
+
+Danon, M., & Kramer, H. (2018). Mental health support and its role in enhancing employee satisfaction and loyalty. Journal of Workplace Behavioral Health, 33(2), 101-115.
+
+Blau, P. M. (1964). Exchange and Power in Social Life. New York: John Wiley & Sons.
+
+Milligan-Saville, J. S., et al. (2017). Workplace mental health training: A randomized controlled trial. The Lancet Psychiatry, 4(2), 145-154.
+
+Wright, T. A., & Cropanzano, R. (1998). Emotional exhaustion as a predictor of job performance and voluntary turnover. Journal of Applied Psychology, 83(3), 486-493.
+
+**Authors (Names and Percentages)**: Boping Song, 25%; Tianji Li, 25%; Jiayao Wei, 25%; Yuntong Zhang, 25%
+
