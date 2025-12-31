@@ -1,1 +1,4 @@
-# Enhancing-Workplace-Mental-Health-Evaluating-Mental-Health-Support-Programs
+# Enhancing Workplace Mental Health
+
+This project evaluates the effectiveness of workplace mental health support programs (MHSPs) on employee performance, job satisfaction, and retention across industries.  
+Using a stratified sampling design and statistical hypothesis testing (t-tests, proportion tests, and ANOVA), the study assesses overall program impact, compares intervention components, and examines demographic heterogeneity in outcomes.
